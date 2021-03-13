@@ -1,12 +1,14 @@
-read -p "Enter the number: " n
+echo "Enter the number"
+read n
+i=1
 a=-1
+fib=0
 b=1
-c=0
-echo "Fibonacci Series is,"
-while [ $n -gt $c ]
-do
-  c=$(($a+$b))
-  echo $c
-  a=$b
-  b=$c
+echo "Fibonacci series is"
+while [ $i -lt $n ]; do
+    fib=$(expr $a + $b)
+    a=$b
+    b=$fib
+    echo $fib
+    i=$(expr $i + 1)
 done
