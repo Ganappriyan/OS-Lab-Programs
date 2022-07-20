@@ -18,4 +18,4 @@ Feel Free to just copy or copy and make changes to the Programs.
 
 <h2>Author:</h2>
 Repository Created and made by Ganappriyan C.<br>
-E-Mail: ganap.priyan.2@gmail.com
+E-Mail: ganappriyanc@gmail.com
