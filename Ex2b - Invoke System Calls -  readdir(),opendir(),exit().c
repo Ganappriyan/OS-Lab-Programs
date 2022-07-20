@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <dirent.h>
+
 struct dirent *dptr;
 int main(int argc, char *argv[])
 {
